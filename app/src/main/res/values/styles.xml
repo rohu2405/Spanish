@@ -16,8 +16,8 @@
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="colorPrimary">#89f0e4</item>
-        <item name="colorPrimaryDark">#89f0e4</item>
+        <item name="colorPrimary">#08223c</item>
+        <item name="colorPrimaryDark">#08223c</item>
     </style>
 
 
@@ -32,6 +32,7 @@
         <item name="android:padding">16dp</item>
         <item name="android:textColor">@android:color/white</item>
         <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
         <item name="android:textAppearance">?android:textAppearanceMedium</item>
     </style>
 </resources>

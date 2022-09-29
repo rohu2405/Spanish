@@ -8,10 +8,17 @@ public class Word  {
 
     // Spanish Translation of the word
     private String Spanish;
+    private int imageResId;
 
     public Word(String DefTrans , String SpanTrans) {
         Default = DefTrans;
         Spanish = SpanTrans;
+    }
+
+    public Word(String DefTrans , String SpanTrans , int GetImage) {
+        Default = DefTrans;
+        Spanish = SpanTrans;
+        imageResId = GetImage;
     }
 
     // Get default translation word
@@ -23,5 +30,7 @@ public class Word  {
     public String getSpanish() {
         return Spanish;
     }
+
+    public int getImageResId() {return imageResId;}
 
 }

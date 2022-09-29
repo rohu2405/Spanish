@@ -32,4 +32,7 @@
 
     <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
     <string name="category_family">Family Members</string>
+    <string name="welcome_to_learn_basic_spanish_language">Welcome to Learn Basic Spanish Language</string>
+    <string name="spanish_is_the_language_of_love">Spanish is the Language of Love.</string>
+    <string name="click_here">Click Here</string>
 </resources>

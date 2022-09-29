@@ -23,16 +23,16 @@ public class numbers extends AppCompatActivity {
         setContentView(R.layout.activity_numbers);
 //        String[] numbersList = {"ONE", "TWO", "THREE", "FOUR", "FIVE", "SIX", "SEVEN", "EIGHT", "NINE", "TEN"};
         ArrayList<Word> numbersList = new ArrayList<>();
-        numbersList.add(new Word("one","uno"));
-        numbersList.add(new Word("two","dos"));
-        numbersList.add(new Word("three","tres"));
-        numbersList.add(new Word("four","cuatro"));
-        numbersList.add(new Word("five","cinco"));
-        numbersList.add(new Word("six","ceis"));
-        numbersList.add(new Word("seven","siete"));
-        numbersList.add(new Word("eight","ocho"));
-        numbersList.add(new Word("nine","nueve"));
-        numbersList.add(new Word("ten","diez"));
+        numbersList.add(new Word("one","uno", R.drawable.number_one));
+        numbersList.add(new Word("two","dos", R.drawable.number_two));
+        numbersList.add(new Word("three","tres", R.drawable.number_three));
+        numbersList.add(new Word("four","cuatro", R.drawable.number_four));
+        numbersList.add(new Word("five","cinco", R.drawable.number_five));
+        numbersList.add(new Word("six","ceis", R.drawable.number_six));
+        numbersList.add(new Word("seven","siete" , R.drawable.number_seven));
+        numbersList.add(new Word("eight","ocho" , R.drawable.number_eight));
+        numbersList.add(new Word("nine","nueve", R.drawable.number_nine));
+        numbersList.add(new Word("ten","diez", R.drawable.number_ten));
 
 
 

@@ -18,13 +18,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/tan_background"
+    android:background="#08223c"
     android:orientation="vertical"
     tools:context="com.example.android.miwok.MainActivity">
 
     <TextView
         android:id="@+id/numbers"
         style="@style/CategoryStyle"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:background="@color/category_numbers"
         android:onClick="numbersActivity"
         android:text="@string/category_numbers"
@@ -34,6 +37,9 @@
     <TextView
         android:id="@+id/family"
         style="@style/CategoryStyle"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:onClick="familyActivity"
         android:background="@color/category_family"
         android:text="@string/category_family"
@@ -43,6 +49,9 @@
         android:id="@+id/colors"
         style="@style/CategoryStyle"
         android:onClick="colorActivity"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:background="@color/category_colors"
         android:text="@string/category_colors"
         tools:ignore="UsingOnClickInXml" />
@@ -50,10 +59,14 @@
     <TextView
         android:id="@+id/phrases"
         style="@style/CategoryStyle"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
         android:background="@color/category_phrases"
         android:onClick="phraseActivity"
         android:text="@string/category_phrases"
         android:textColor="#1B5E20"
         tools:ignore="UsingOnClickInXml" />
+
 
 </LinearLayout>

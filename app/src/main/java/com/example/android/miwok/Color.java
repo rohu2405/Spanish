@@ -6,10 +6,18 @@ public class Color {
 
     // Spanish Translation of the word
     private String Spanish;
+    private int ColorResId;
 
     public Color(String DefTrans , String SpanTrans) {
         Default = DefTrans;
         Spanish = SpanTrans;
+    }
+
+    public Color(String DefTrans , String SpanTrans , int GetColor) {
+
+        Default = DefTrans;
+        Spanish = SpanTrans;
+        ColorResId = GetColor;
     }
 
     // Get default translation word
@@ -21,5 +29,7 @@ public class Color {
     public String getSpanish() {
         return Spanish;
     }
+
+    public int getColorResId() {return ColorResId;}
 }
 

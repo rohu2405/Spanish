@@ -7,9 +7,17 @@ public class Family {
     // Spanish Translation of the word
     private String Spanish;
 
+    private int FamilyResId;
+
     public Family(String DefTrans , String SpanTrans) {
         Default = DefTrans;
         Spanish = SpanTrans;
+    }
+
+    public Family(String DefTrans , String SpanTrans , int GetFamilyId) {
+        Default = DefTrans;
+        Spanish = SpanTrans;
+        FamilyResId = GetFamilyId;
     }
 
     // Get default translation word
@@ -21,4 +29,6 @@ public class Family {
     public String getSpanish() {
         return Spanish;
     }
+
+    public int getFamilyResId() { return FamilyResId;}
 }
